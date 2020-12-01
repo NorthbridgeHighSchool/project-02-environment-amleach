@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+html {
+  background-color: rgb(190, 134, 176);
+}
+img{
+  max-height: 200px;
+  max-width: 200px;
+  border: 2px solid rgb(10, 1, 1)
+}
+a:link {
+color:rgb(37, 115, 233);
+
+border: 1px solid rgb(4, 255, 255);
+background-color: rgb(0, 0, 0);
+padding: 15px;
+}
+a:visited {
+  color:rgb(28, 235, 97)
+}
+a:hover{
+ text-decoration: none;
+ box-shadow: 0 0 5px 5px rgb(199, 197, 197)
+}
+a.current {
+  color:rgb(0, 132, 255)
+}
+a:active {
+  color:rgb(255, 0, 0)
+}
+li {
+  margin-bottom: 35px;
+}
+.odd {
+  float: right;
+margin: 20px
+}
+.even {
+  float: left;
+  margin: 20px
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30pt;
+}
+
+h2{
+  font-family: "Nerko one", cursive;
+  font-size: 20pt;
+}
